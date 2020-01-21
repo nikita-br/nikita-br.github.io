@@ -1,75 +1,22 @@
-<!-- Created by Lior Shahar and Hanan Avraham -->
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>2D Transformation</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="css/style.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
   </head>
   <body>
-    <header>
-      <nav><h1>Welcome to 2D Transformer</h1></nav>
-    </header>
-    <main>
-      <!-- right canvas context -->
-      <article id="mainContext">
-        <canvas id="myCanvas"></canvas>
-      </article>
+    <h1>Hello, world!</h1>
 
-      <!-- left menu -->
-
-      <article id="leftMenuBar">
-        <section>
-          <p>TOOLS</p>
-        </section>
-
-        <ul class="toolsContainer">
-          <li id="reflectYbuttin" class="toolsItem"></li>
-          <li id="reflectXbuttin" class="toolsItem"></li>
-          <li id="zoomInButton" class="toolsItem"></li>
-          <li id="zoomOutButton" class="toolsItem"></li>
-          <li id="rotatRightButton" class="toolsItem"></li>
-          <li class="toolsItem">
-            <div class="quantity">
-              <input
-                id="rotatAngleInput"
-                type="number"
-                min="0"
-                max="360"
-                step="1"
-                value="0"
-              />
-            </div>
-          </li>
-          <li id="shearXButton" class="toolsItem"></li>
-
-          <li id="moveButton" class="toolsItem"></li>
-          <li class="toolsItemLong">
-            <input
-              id="loadFileInput"
-              type="file"
-              name="file"
-              class="inputfile"
-            />
-            <label for="loadFileInput" id="loadFileLable"
-              ><div></div>
-              <span>Choose a file...</span></label
-            >
-            <button id="draw">Draw</button>
-          </li>
-        </ul>
-      </article>
-    </main>
-    <footer></footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
